@@ -7,10 +7,14 @@ public class MainActivity extends AppCompatActivity {
 
     int a;
     String b;
-    Float c;
+    float c;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        a=1;
+        b="a";
+        c = 1;
     }
 }
